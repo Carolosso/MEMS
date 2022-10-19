@@ -15,7 +15,9 @@ _interrupt 5 void n_f(void)
 {
 	P1=k[i];
 	i++;
-	if (i>3){
-	i=0;}
+	if (i>3)
+	{
+		i=0;
+	}
 	TF2=0;
 }
