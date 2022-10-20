@@ -12,10 +12,12 @@ void main(){
 	T2I0 = 1;
 	while(1){
 		if(kb_test() == '4'){
-			if(CRC >= 20) CRCH--;
+			//if(CRC >= 20) CRCH--;
+			CRCH--;
 		}
 		if(kb_test() == '6'){
-		   if(CRC <=2.5) CRCH++;
+		   //if(CRC <=2.5) CRCH++;
+			CRCH++;
 		}
 		for(j = 0; j < 2000; j++){}
 	}
