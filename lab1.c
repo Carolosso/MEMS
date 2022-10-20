@@ -2,7 +2,7 @@
 #include <reg515.sfr>
 #include <lcd.h>
 
-static int komutacja1_4[4]={8,2,4,1};
+static int komutacja1_4[4] = {8,2,4,1};
 static int i = 0;	
 static int j = 0;
 void main(){
