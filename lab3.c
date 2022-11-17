@@ -4,7 +4,7 @@
 static int P1_values[6] = {222,219,249,237,231,246};
 
 static int P4_values[6] = {3,1,5,4,6,2};
-static int mask = 7;//11100000
+static int mask = 7;//111
 static int col = 0;
 _interrupt 5 void przerwanie(void){
 
